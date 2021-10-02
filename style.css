@@ -1,97 +1,39 @@
-html{
-    font-size: 15px;
-}
-#body-header{
-    height: 65vh;
-    background-image: url(images/resumebackground2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    opacity: 0.95;
-    
+body {
+  background-color: #CAF7E3;
 }
 
-section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+hr {
+
+border-style: none;
+border-top-style: dotted;
+border-color: grey;
+border-width: 5px;
+  width: 5%;
 }
-section:nth-child(2n){
-background-color: rgba(243, 241, 241, 0.986);
+h1 {
+  color: #0A81AB;
 }
-section:nth-child(2n+1){
-    background-color: white;
-}
-section:last-child{
-    background: linear-gradient(to right,rgb(128, 6, 241),rgb(86, 7, 122));
+h3 {
+  color: #0A81AB;
 }
 
 
-.contact-subclass{
-    height: 350px;
-    width: 35%;
-    min-width: 250px;
-    margin: 30px 30px 0 30px;
-    
+ td {
+   font-size: 13px;
+ }
+ li {
+   font-size: 13px;
+ }
+ .contact {
+   font-size: 12px;
+   color: #0A81AB;
+ }
 
+.hobbies {
+  font-size: 12px;
+  color: #0A81AB;
 }
-.contact-subclass form div{
-    margin-top: 12px;
-
-    
-}
-.contact-subclass input{
-    width: 90%;
-    height: 45px;
-    
-    background-color: inherit;
-    border: 0;
-    outline: none;
-    
-}::placeholder{
-    font: 1.3em sans-serif;
-    color: rgb(175, 174, 174);
-}
-#get-in-touch{
-    width: 35%;
-    height: auto;
-    padding: 10px;
-    text-align: justify;
-    margin-top: -1px;
-    color: rgb(156, 149, 149);
-    font-size: 18px;
-}
-.bottom-line{
-position: relative;
-
-    height: 0px;
-    width: 90%;
-    border: 4px solid rgb(161, 159, 159);
-}
-.contact-subclass textarea{
-width: 90%;
-height: 5rem;
-border: 0px;
-background-color: inherit;
-}
-.contact-subclass button{
-    height: 3rem;
-    width: 12rem;
-    
-    background-color: inherit;
-    color: white;
-    size: 9rem;
-    letter-spacing: 1px;
-    border: 3px  solid white;
-    margin-top: 12px;
-}
-.education{
-    color: blue;
-    opacity: 0.2;
-}
-.experience{
-    color: blue;
-    opacity: 0.2;
+.GITHUB{
+  font-size: 12PX;
+  color: #FB3640;
 }
